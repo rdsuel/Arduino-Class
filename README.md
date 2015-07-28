@@ -26,7 +26,14 @@ Digital Inputs, Debouncing
 ![Exercise 2](/schematics/exercise_2.png)
 
 ### Details
-Connect a push button to pin 4 of the Arduino Uno as shown in the schematic. Be sure to add a 10K pulldown resistor to the pin 4 side of the button so that the input is not floating. 
+Connect a push button to pin 4 of the Arduino Uno as shown in the schematic. Be sure to add a 10K pulldown resistor to the pin 4 side of the button so that the input is not floating (prevents false readings). 
 
-Update the code so that the button starts and stops the blinking LED. 
+Update the code so that each button press adjusts the blink rate as follows:
+
+Press | Blink Period |
+--- | --- | --- |
+1 | 300 |
+2 | 200 |
+3 | 100 |
+4 | 500 |
 
