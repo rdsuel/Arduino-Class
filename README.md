@@ -55,8 +55,20 @@ Analog Inputs, PWM Outputs
 ### Schematic
 ![Exercise 3](/schematics/exercise_3.png)
 
-## Exercise 4: Control a servo motor using an analog knob
+## Exercise 4: Control a servo with an analog knob
+We will only be using the analog knob from the previous exercises. You can remove all components from the right side of your Arduino (button, led, resistors). Connect the servo to the Arduino as shown in the schematic below.
+
+We could write the software to control the servo manually using very specific timing and digital output pulse widths. However, one of the great things about Arduino is that there is a very active community. Chances are, someone has already solved the problem you are trying to tackle. That is the case for servo control. In this example, we will be importing the "Servo" library to control our servo.
+
+The goal of this exercise is to have the servo rotate along with the analog knob (turn knob left, servo goes left proportionally and vice-versa).
+
+### Concepts
+Using Libraries, Controlling Servo Motors
+
+### Schematic
+![Exercise 4](/schematics/exercise_4.png)
 
 
+## Exercise 5: Control a servo using your breath!
 
 
