@@ -6,6 +6,10 @@ bool previousButtonValue = LOW;
 unsigned long previousTime = 0;
 int blinkRate = 500;
 int pressCount = 0;
+int analogPin = 0;
+unsigned long previousAnalogTime = 0;
+int analogValue;
+unsigned char ledBrightness = 255;
 
 void setup() {
   pinMode(ledPin, OUTPUT);
@@ -18,6 +22,27 @@ void loop() {
   blinkLed();
   
   detectButtonPress();
+  
+  readAnalogInput();
+}
+
+void readAnalogInput()
+{
+  // Calculate elapsed time using the millis() function.
+  unsigned long elapsedTime;
+  String displayMessage = "Analog Value: ";
+  
+  elapsedTime = millis() - previousAnalogTime;
+  
+  if (elapsedTime >= 200)
+  {
+    previousAnalogTime = millis();
+    analogValue = analogRead(analogPin);
+    Serial.println(String("Analog Value: ") + String(analogValue));
+    
+    ledBrightness = (unsigned char)(((unsigned long)analogValue * 255)/1023);
+    Serial.println(String("Brightness:   ") + String((unsigned long)ledBrightness*100/255));
+  }
 }
 
 void detectButtonPress()
@@ -82,11 +107,12 @@ void blinkLed()
     if (ledState == LOW)
     {
       ledState = HIGH;
+      analogWrite(ledPin, ledBrightness);
     }
     else
     {
       ledState = LOW;
+      analogWrite(ledPin, 0);
     }
-    digitalWrite(ledPin, ledState);
   }
 }

@@ -42,11 +42,11 @@ Digital Inputs, Advanced Timing, Serial Window
 ## Exercise 3: Adjust brightness with an analog knob
 Connect a potentiometer (analog knob) to analog input 0 (AN0) as shown in the schematic. After connecting the knob, add the following code:
 
-1. Print the analog input value to the Serial window every 1 second.
+1. Read and print the analog input value to the Serial window every 1 second.
 
 2. Convert the LED output to a PWM output and set the duty cycle (brightness) based on the value of the Analog input. The equation for scaling the brightness is as follows:
 
-`brightness = (analogValue * 255)/1023;`
+`ledBrightness = (unsigned char)(((unsigned long)analogValue * 255)/1023);`
 
 ### Concepts
 Analog Inputs, PWM Outputs
