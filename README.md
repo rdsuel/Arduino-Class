@@ -7,6 +7,8 @@ We will be using the following Arduino Language Reference page extensively. It d
 
 https://www.arduino.cc/en/Reference/HomePage
 
+<hr>
+
 ## Exercise 1: Blink an LED
 Connect an LED and current limiting resistor (200 Ohm, blue resistor) to pin 5 of the Arduino Uno. Blink the LED at 1Hz (500ms on, 500ms off). Use a 'function' to perform the actual LED control.
 
@@ -16,6 +18,7 @@ Digital Outputs, Basic Timing, Functions
 ### Schematic
 ![Exercise 1](/schematics/exercise_1.png)
 
+<hr>
 
 ## Exercise 2: Adjust blink rate with a button
 Connect a push button to pin 3 of the Arduino Uno as shown in the schematic. Be sure to add a 10K pulldown resistor to the "arduino side" of the button so that the input is not floating when the button is not pressed(prevents false readings). 
@@ -39,6 +42,7 @@ Digital Inputs, Advanced Timing, Serial Window
 ### Schematic
 ![Exercise 2](/schematics/exercise_2.png)
 
+<hr>
 
 ## Exercise 3: Adjust brightness with an analog knob
 Connect a potentiometer (analog knob) to analog input 0 (AN0) as shown in the schematic. After connecting the knob, add the following code:
@@ -55,6 +59,8 @@ Analog Inputs, PWM Outputs
 ### Schematic
 ![Exercise 3](/schematics/exercise_3.png)
 
+<hr>
+
 ## Exercise 4: Control a servo with an analog knob
 We will only be using the analog knob from the previous exercises. You can remove all components from the right side of your Arduino (button, led, resistors). Connect the servo to the Arduino as shown in the schematic below.
 
@@ -68,6 +74,7 @@ Using Libraries, Controlling Servo Motors
 ### Schematic
 ![Exercise 4](/schematics/exercise_4.png)
 
+<hr>
 
 ## Exercise 5: Control a servo using your breath!
 
