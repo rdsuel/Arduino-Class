@@ -28,7 +28,7 @@ Digital Inputs, Advanced Timing, Serial Window
 ### Details
 Connect a push button to pin 4 of the Arduino Uno as shown in the schematic. Be sure to add a 10K pulldown resistor to the pin 4 side of the button so that the input is not floating (prevents false readings). 
 
-1. Update the LED timing to use the calculate elapsed time using the 'millis()' function instead of 'delay()'.
+1. Update the LED function to calculate elapsed time using the 'millis()' function instead of using 'delay(500);' in the main loop.
 
 2. Add new code that prints "Press" and "Release" to the serial window each time the button is pressed/released.
 
