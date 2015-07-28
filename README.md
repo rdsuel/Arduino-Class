@@ -7,14 +7,11 @@ We will be using the following Arduino Language Reference page extensively. It d
 https://www.arduino.cc/en/Reference/HomePage
 
 ## Exercise 1: Blink an LED
-
+![Exercise 1](/schematics/exercise_1.png)
 Connect an LED and current limiting resistor (200 Ohm, blue resistor) to pin 5 of the Arduino Uno. Blink the LED at 1Hz (500ms on, 500ms off). Use a 'function' to perform the actual LED control.
 
 ### Concepts
 Digital Outputs, Basic Timing, Functions
-
-### Schematic
-![Exercise 1](/schematics/exercise_1.png)
 
 
 ## Exercise 2: Adjust blink rate with a button
