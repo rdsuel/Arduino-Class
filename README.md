@@ -12,8 +12,21 @@ https://www.arduino.cc/en/Reference/HomePage
 Digital Outputs, Timing, Serial Window, Functions
 
 ### Schematic
-![Example 1](/schematics/exercise_1.png)
+![Exercise 1](/schematics/exercise_1.png)
 
 ### Details
 Connect an LED and current limiting resistor (200 Ohm, blue resistor) to pin 5 of the Arduino Uno. Blink the LED at 1Hz (500ms on, 500ms off). Also, send the LED status to the serial window each time the status changes. Use functions to encapsulate functionality where possible.
+
+## Exercise 2: Add a button
+
+### Concepts
+Digital Inputs, Debouncing
+
+### Schematic
+![Exercise 2](/schematics/exercise_2.png)
+
+### Details
+Connect a push button to pin 4 of the Arduino Uno as shown in the schematic. Be sure to add a 10K pulldown resistor to the pin 4 side of the button so that the input is not floating. 
+
+Update the code so that the button starts and stops the blinking LED. 
 
