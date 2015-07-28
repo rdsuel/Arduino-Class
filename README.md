@@ -17,7 +17,7 @@ Digital Outputs, Basic Timing, Functions
 
 
 ## Exercise 2: Adjust blink rate with a button
-Connect a push button to pin 4 of the Arduino Uno as shown in the schematic. Be sure to add a 10K pulldown resistor to the pin 4 side of the button so that the input is not floating (prevents false readings). 
+Connect a push button to pin 3 of the Arduino Uno as shown in the schematic. Be sure to add a 10K pulldown resistor to the "arduino side" of the button so that the input is not floating when the button is not pressed(prevents false readings). 
 
 1. Update the LED function to calculate elapsed time using the 'millis()' function instead of using 'delay(500);' in the main loop.
 

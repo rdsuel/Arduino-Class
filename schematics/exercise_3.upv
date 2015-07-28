@@ -8552,7 +8552,7 @@
             "name": "Arduinos-Exercise-3", 
             "owner": "Software", 
             "slug": "Arduinos-Exercise-3", 
-            "updated_timestamp": 1438105978
+            "updated_timestamp": 1438107588
         }
     }, 
     "layer_options": [
@@ -8682,99 +8682,6 @@
         {
             "annotations": [], 
             "attributes": {}, 
-            "net_id": "ac29d2cd38e8fb8", 
-            "net_type": "nets", 
-            "points": [
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 0, 
-                            "body_index": 0, 
-                            "instance_id": "4fe4cb4e99fcff46", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "d338f975258e6ea5"
-                    ], 
-                    "point_id": "22fb05d6e8f97f31", 
-                    "x": 840, 
-                    "y": -810
-                }, 
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "d338f975258e6ea5", 
-                        "e84dc2e03020cf56"
-                    ], 
-                    "point_id": "7cb6cb2ff5103786", 
-                    "x": 770, 
-                    "y": -760
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 0, 
-                            "body_index": 0, 
-                            "instance_id": "cc49d6d61004092d", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "c2a9a91235ff860b"
-                    ], 
-                    "point_id": "ad53c152ee36e0f7", 
-                    "x": 770, 
-                    "y": -850
-                }, 
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "ad53c152ee36e0f7", 
-                        "d338f975258e6ea5"
-                    ], 
-                    "point_id": "c2a9a91235ff860b", 
-                    "x": 770, 
-                    "y": -830
-                }, 
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "22fb05d6e8f97f31", 
-                        "7cb6cb2ff5103786", 
-                        "c2a9a91235ff860b"
-                    ], 
-                    "point_id": "d338f975258e6ea5", 
-                    "x": 770, 
-                    "y": -810
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 22, 
-                            "body_index": 0, 
-                            "instance_id": "cdadfdbcc6e59de3", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "7cb6cb2ff5103786"
-                    ], 
-                    "point_id": "e84dc2e03020cf56", 
-                    "x": 710, 
-                    "y": -760
-                }
-            ], 
-            "signals": [
-                ""
-            ]
-        }, 
-        {
-            "annotations": [], 
-            "attributes": {}, 
             "net_id": "16013a7545d4bbbc", 
             "net_type": "nets", 
             "points": [
@@ -8851,6 +8758,99 @@
                     "point_id": "f1b48231c0f116b5", 
                     "x": 770, 
                     "y": -540
+                }
+            ], 
+            "signals": [
+                ""
+            ]
+        }, 
+        {
+            "annotations": [], 
+            "attributes": {}, 
+            "net_id": "e346be16d9bf4727", 
+            "net_type": "nets", 
+            "points": [
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 21, 
+                            "body_index": 0, 
+                            "instance_id": "cdadfdbcc6e59de3", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "5ffade78a5a75078"
+                    ], 
+                    "point_id": "2285f48d6aa66037", 
+                    "x": 710, 
+                    "y": -780
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "4fe4cb4e99fcff46", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "d338f975258e6ea5"
+                    ], 
+                    "point_id": "22fb05d6e8f97f31", 
+                    "x": 840, 
+                    "y": -810
+                }, 
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "2285f48d6aa66037", 
+                        "d338f975258e6ea5"
+                    ], 
+                    "point_id": "5ffade78a5a75078", 
+                    "x": 770, 
+                    "y": -780
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "cc49d6d61004092d", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "c2a9a91235ff860b"
+                    ], 
+                    "point_id": "ad53c152ee36e0f7", 
+                    "x": 770, 
+                    "y": -850
+                }, 
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "ad53c152ee36e0f7", 
+                        "d338f975258e6ea5"
+                    ], 
+                    "point_id": "c2a9a91235ff860b", 
+                    "x": 770, 
+                    "y": -830
+                }, 
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "22fb05d6e8f97f31", 
+                        "5ffade78a5a75078", 
+                        "c2a9a91235ff860b"
+                    ], 
+                    "point_id": "d338f975258e6ea5", 
+                    "x": 770, 
+                    "y": -810
                 }
             ], 
             "signals": [

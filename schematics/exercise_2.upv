@@ -6445,16 +6445,16 @@
                     "font_size": 10, 
                     "rotation": 0.0, 
                     "styles": {}, 
-                    "text": "Current Limiting Resistor", 
+                    "text": "Pulldown Resistor", 
                     "type": "label", 
                     "x": 0, 
                     "y": 0
                 }, 
                 "rotation": 0.0, 
-                "value": "Current Limiting Resistor", 
+                "value": "Pulldown Resistor", 
                 "visible": "true", 
-                "x": 875, 
-                "y": -676
+                "x": 785, 
+                "y": -880
             }, 
             {
                 "flip": false, 
@@ -6466,16 +6466,16 @@
                     "font_size": 10, 
                     "rotation": 0.0, 
                     "styles": {}, 
-                    "text": "Pulldown Resistor", 
+                    "text": "Current Limiting Resistor", 
                     "type": "label", 
                     "x": 0, 
                     "y": 0
                 }, 
                 "rotation": 0.0, 
-                "value": "Pulldown Resistor", 
+                "value": "Current Limiting Resistor", 
                 "visible": "true", 
-                "x": 785, 
-                "y": -880
+                "x": 875, 
+                "y": -676
             }
         ], 
         "attributes": {
@@ -6604,6 +6604,99 @@
                     "point_id": "d22b0fee4004e027", 
                     "x": 890, 
                     "y": -810
+                }
+            ], 
+            "signals": [
+                ""
+            ]
+        }, 
+        {
+            "annotations": [], 
+            "attributes": {}, 
+            "net_id": "c9e5adb72b334c40", 
+            "net_type": "nets", 
+            "points": [
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "4c7cda45f15c2be8", 
+                        "e428a3120bbe9858"
+                    ], 
+                    "point_id": "28401cb10c5832fc", 
+                    "x": 770, 
+                    "y": -780
+                }, 
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "28401cb10c5832fc", 
+                        "60323b5512e2a94a", 
+                        "d861cf1483a10e1e"
+                    ], 
+                    "point_id": "4c7cda45f15c2be8", 
+                    "x": 770, 
+                    "y": -810
+                }, 
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "4c7cda45f15c2be8", 
+                        "f1a23c104cca6a58"
+                    ], 
+                    "point_id": "60323b5512e2a94a", 
+                    "x": 770, 
+                    "y": -830
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "e01f30ebec7feba4", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "4c7cda45f15c2be8"
+                    ], 
+                    "point_id": "d861cf1483a10e1e", 
+                    "x": 840, 
+                    "y": -810
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 21, 
+                            "body_index": 0, 
+                            "instance_id": "1c0459effa733183", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "28401cb10c5832fc"
+                    ], 
+                    "point_id": "e428a3120bbe9858", 
+                    "x": 710, 
+                    "y": -780
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "a8c331950cff1be9", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "60323b5512e2a94a"
+                    ], 
+                    "point_id": "f1a23c104cca6a58", 
+                    "x": 770, 
+                    "y": -850
                 }
             ], 
             "signals": [
@@ -6779,99 +6872,6 @@
                     "point_id": "99dd291635e0983f", 
                     "x": 860, 
                     "y": -620
-                }
-            ], 
-            "signals": [
-                ""
-            ]
-        }, 
-        {
-            "annotations": [], 
-            "attributes": {}, 
-            "net_id": "3d92008d28ddada2", 
-            "net_type": "nets", 
-            "points": [
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "60323b5512e2a94a", 
-                        "a21b0b4f48f4f310", 
-                        "d861cf1483a10e1e"
-                    ], 
-                    "point_id": "4c7cda45f15c2be8", 
-                    "x": 770, 
-                    "y": -810
-                }, 
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "4c7cda45f15c2be8", 
-                        "f1a23c104cca6a58"
-                    ], 
-                    "point_id": "60323b5512e2a94a", 
-                    "x": 770, 
-                    "y": -830
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 22, 
-                            "body_index": 0, 
-                            "instance_id": "1c0459effa733183", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "a21b0b4f48f4f310"
-                    ], 
-                    "point_id": "9a0419d64cfcb856", 
-                    "x": 710, 
-                    "y": -760
-                }, 
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "4c7cda45f15c2be8", 
-                        "9a0419d64cfcb856"
-                    ], 
-                    "point_id": "a21b0b4f48f4f310", 
-                    "x": 770, 
-                    "y": -760
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 0, 
-                            "body_index": 0, 
-                            "instance_id": "e01f30ebec7feba4", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "4c7cda45f15c2be8"
-                    ], 
-                    "point_id": "d861cf1483a10e1e", 
-                    "x": 840, 
-                    "y": -810
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 0, 
-                            "body_index": 0, 
-                            "instance_id": "a8c331950cff1be9", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "60323b5512e2a94a"
-                    ], 
-                    "point_id": "f1a23c104cca6a58", 
-                    "x": 770, 
-                    "y": -850
                 }
             ], 
             "signals": [

@@ -1,5 +1,5 @@
 int ledPin = 5;
-int buttonPin = 4;
+int buttonPin = 3;
 bool ledState = LOW;
 bool buttonValue = LOW;
 bool previousButtonValue = LOW;
