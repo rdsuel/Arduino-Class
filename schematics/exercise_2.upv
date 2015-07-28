@@ -2,6 +2,247 @@
     "component_instances": [
         {
             "attributes": {
+                "_pin_0_0_direction_0": "up", 
+                "_pin_0_1_direction_0": "down", 
+                "_resistance": "200", 
+                "refdes": "R1"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "gen_obj_attributes": [], 
+            "instance_id": "dd93c85305f947af", 
+            "library_id": "c4af69e4a2c81e2e", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "200", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "rotation": 0.5, 
+                            "value": "200", 
+                            "visible": "true", 
+                            "x": 30, 
+                            "y": -28
+                        }
+                    ], 
+                    "flip": "false", 
+                    "hidden": "false", 
+                    "rotation": 0.5, 
+                    "x": 870, 
+                    "y": -650
+                }
+            ], 
+            "symbol_index": 0
+        }, 
+        {
+            "attributes": {
+                "refdes": "Push Button"
+            }, 
+            "footprint_attributes": [
+                {
+                    "flip": false, 
+                    "layer": "top silkscreen", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                {
+                    "flip": false, 
+                    "layer": "top courtyard", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                {
+                    "flip": false, 
+                    "layer": "top package outline", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }
+            ], 
+            "footprint_index": 0, 
+            "footprint_pos": {
+                "flip": false, 
+                "rotation": 0.0, 
+                "side": "top", 
+                "x": 31750000, 
+                "y": 0
+            }, 
+            "gen_obj_attributes": [
+                {
+                    "attributes": {
+                        "attached_layers": "top solder mask,top paste,top copper", 
+                        "height": "1400000", 
+                        "radius": "0", 
+                        "shape": "rectangle", 
+                        "spoke_width": "0", 
+                        "type": "padstack", 
+                        "width": "1000000"
+                    }, 
+                    "flip": false, 
+                    "layer": "top copper", 
+                    "rotation": 0.0, 
+                    "x": -3750000, 
+                    "y": 700000
+                }, 
+                {
+                    "attributes": {
+                        "attached_layers": "top solder mask,top paste,top copper", 
+                        "height": "1400000", 
+                        "radius": "0", 
+                        "shape": "rectangle", 
+                        "spoke_width": "0", 
+                        "type": "padstack", 
+                        "width": "1000000"
+                    }, 
+                    "flip": false, 
+                    "layer": "top copper", 
+                    "rotation": 0.0, 
+                    "x": 2750000, 
+                    "y": 700000
+                }
+            ], 
+            "instance_id": "e01f30ebec7feba4", 
+            "library_id": "939b91da307c0423", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "Push Button", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "rotation": 0.0, 
+                            "value": "Push Button", 
+                            "visible": "true", 
+                            "x": -32, 
+                            "y": -34
+                        }
+                    ], 
+                    "flip": "false", 
+                    "hidden": "false", 
+                    "rotation": 0.0, 
+                    "x": 870, 
+                    "y": -800
+                }
+            ], 
+            "symbol_index": 0
+        }, 
+        {
+            "attributes": {
+                "_name": "+5V", 
+                "_pin_0_resolve": "local", 
+                "refdes": "?2"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "gen_obj_attributes": [], 
+            "instance_id": "09a2c3979b4eec34", 
+            "library_id": "0000000000000001", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "+5V", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "rotation": 0.0, 
+                            "value": "+5V", 
+                            "visible": "true", 
+                            "x": 0, 
+                            "y": 10
+                        }
+                    ], 
+                    "flip": "false", 
+                    "hidden": "false", 
+                    "rotation": 0.0, 
+                    "x": 950, 
+                    "y": -770
+                }
+            ], 
+            "symbol_index": 0
+        }, 
+        {
+            "attributes": {
+                "_pin_0_0_direction_0": "down", 
+                "_pin_0_1_direction_0": "up", 
+                "refdes": "D1"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "gen_obj_attributes": [], 
+            "instance_id": "f0d02558e4e8dca5", 
+            "library_id": "27b59ac0358a9766", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "LED", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "rotation": 1.5, 
+                            "value": "LED", 
+                            "visible": "true", 
+                            "x": 25, 
+                            "y": -56
+                        }
+                    ], 
+                    "flip": "false", 
+                    "hidden": "false", 
+                    "rotation": 0.5, 
+                    "x": 880, 
+                    "y": -580
+                }
+            ], 
+            "symbol_index": 0
+        }, 
+        {
+            "attributes": {
                 "_pin_0_0_direction_0": "right", 
                 "_pin_0_10_direction_0": "left", 
                 "_pin_0_11_direction_0": "right", 
@@ -796,12 +1037,12 @@
                 "_pin_0_0_direction_0": "up", 
                 "_pin_0_1_direction_0": "down", 
                 "_resistance": "200", 
-                "refdes": "R1"
+                "refdes": "R3"
             }, 
             "footprint_attributes": [], 
             "footprint_index": 0, 
             "gen_obj_attributes": [], 
-            "instance_id": "dd93c85305f947af", 
+            "instance_id": "a8c331950cff1be9", 
             "library_id": "c4af69e4a2c81e2e", 
             "symbol_attributes": [
                 {
@@ -816,13 +1057,13 @@
                                 "font_size": 10, 
                                 "rotation": 0.0, 
                                 "styles": {}, 
-                                "text": "200", 
+                                "text": "10K", 
                                 "type": "label", 
                                 "x": 0, 
                                 "y": 0
                             }, 
                             "rotation": 0.5, 
-                            "value": "200", 
+                            "value": "10K", 
                             "visible": "true", 
                             "x": 30, 
                             "y": -28
@@ -831,128 +1072,23 @@
                     "flip": "false", 
                     "hidden": "false", 
                     "rotation": 0.5, 
-                    "x": 870, 
-                    "y": -650
+                    "x": 780, 
+                    "y": -850
                 }
             ], 
             "symbol_index": 0
         }, 
         {
             "attributes": {
-                "_pin_0_0_direction_0": "down", 
-                "_pin_0_1_direction_0": "up", 
-                "refdes": "D1"
+                "_name": "GND", 
+                "_pin_0_resolve": "local", 
+                "refdes": "?3"
             }, 
             "footprint_attributes": [], 
             "footprint_index": 0, 
             "gen_obj_attributes": [], 
-            "instance_id": "f0d02558e4e8dca5", 
-            "library_id": "27b59ac0358a9766", 
-            "symbol_attributes": [
-                {
-                    "annotations": [
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
-                                "text": "LED", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "rotation": 1.5, 
-                            "value": "LED", 
-                            "visible": "true", 
-                            "x": 25, 
-                            "y": -56
-                        }
-                    ], 
-                    "flip": "false", 
-                    "hidden": "false", 
-                    "rotation": 0.5, 
-                    "x": 880, 
-                    "y": -580
-                }
-            ], 
-            "symbol_index": 0
-        }, 
-        {
-            "attributes": {
-                "refdes": "?1"
-            }, 
-            "footprint_attributes": [
-                {
-                    "flip": false, 
-                    "layer": "top silkscreen", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                {
-                    "flip": false, 
-                    "layer": "top courtyard", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                {
-                    "flip": false, 
-                    "layer": "top package outline", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }
-            ], 
-            "footprint_index": 0, 
-            "footprint_pos": {
-                "flip": false, 
-                "rotation": 0.0, 
-                "side": "top", 
-                "x": 31750000, 
-                "y": 0
-            }, 
-            "gen_obj_attributes": [
-                {
-                    "attributes": {
-                        "attached_layers": "top solder mask,top paste,top copper", 
-                        "height": "1400000", 
-                        "radius": "0", 
-                        "shape": "rectangle", 
-                        "spoke_width": "0", 
-                        "type": "padstack", 
-                        "width": "1000000"
-                    }, 
-                    "flip": false, 
-                    "layer": "top copper", 
-                    "rotation": 0.0, 
-                    "x": -3750000, 
-                    "y": 700000
-                }, 
-                {
-                    "attributes": {
-                        "attached_layers": "top solder mask,top paste,top copper", 
-                        "height": "1400000", 
-                        "radius": "0", 
-                        "shape": "rectangle", 
-                        "spoke_width": "0", 
-                        "type": "padstack", 
-                        "width": "1000000"
-                    }, 
-                    "flip": false, 
-                    "layer": "top copper", 
-                    "rotation": 0.0, 
-                    "x": 2750000, 
-                    "y": 700000
-                }
-            ], 
-            "instance_id": "e01f30ebec7feba4", 
-            "library_id": "939b91da307c0423", 
+            "instance_id": "365bdcf76bde3060", 
+            "library_id": "0000000000000001", 
             "symbol_attributes": [
                 {
                     "annotations": [
@@ -966,29 +1102,964 @@
                                 "font_size": 10, 
                                 "rotation": 0.0, 
                                 "styles": {}, 
-                                "text": "?1", 
+                                "text": "GND", 
                                 "type": "label", 
                                 "x": 0, 
                                 "y": 0
                             }, 
                             "rotation": 0.0, 
-                            "value": "?1", 
+                            "value": "GND", 
                             "visible": "true", 
-                            "x": -5, 
-                            "y": -33
+                            "x": 0, 
+                            "y": -40
                         }
                     ], 
                     "flip": "false", 
                     "hidden": "false", 
                     "rotation": 0.0, 
-                    "x": 870, 
-                    "y": -820
+                    "x": 760, 
+                    "y": -920
                 }
             ], 
-            "symbol_index": 0
+            "symbol_index": 2
         }
     ], 
     "components": {
+        "0000000000000001": {
+            "attributes": {
+                "_num_pins": "1", 
+                "_octopart_part_number": "", 
+                "_symbol_0_0": "Flag 1", 
+                "_symbol_10_0": "Bi-Directional", 
+                "_symbol_11_0": "No Connect", 
+                "_symbol_1_0": "Flag 2", 
+                "_symbol_2_0": "GND", 
+                "_symbol_3_0": "VCC", 
+                "_symbol_7_0": "Small Flag", 
+                "_symbol_8_0": "Input", 
+                "_symbol_9_0": "Output", 
+                "_type": "integrated circuit"
+            }, 
+            "footprints": [], 
+            "name": "VCC", 
+            "symbols": [
+                {
+                    "bodies": [
+                        {
+                            "action_regions": [
+                                {
+                                    "attributes": {}, 
+                                    "connections": [
+                                        [
+                                            0
+                                        ]
+                                    ], 
+                                    "name": "1", 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": -20
+                                    }, 
+                                    "ref": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "annotations": [], 
+                            "shapes": [
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 3, 
+                                        "y": -7
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 17, 
+                                        "y": -7
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }
+                            ], 
+                            "styles": {}
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "action_regions": [
+                                {
+                                    "attributes": {}, 
+                                    "connections": [
+                                        [
+                                            0
+                                        ]
+                                    ], 
+                                    "name": "1", 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -11
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": -30
+                                    }, 
+                                    "ref": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "annotations": [], 
+                            "shapes": [
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 3, 
+                                        "y": -7
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 17, 
+                                        "y": -7
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -5
+                                    }, 
+                                    "p2": {
+                                        "x": 3, 
+                                        "y": -12
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -5
+                                    }, 
+                                    "p2": {
+                                        "x": 17, 
+                                        "y": -12
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "control1": {
+                                        "x": 9, 
+                                        "y": -10
+                                    }, 
+                                    "control2": {
+                                        "x": 11, 
+                                        "y": -10
+                                    }, 
+                                    "flip": false, 
+                                    "line_width": 0, 
+                                    "p1": {
+                                        "x": 3, 
+                                        "y": -12
+                                    }, 
+                                    "p2": {
+                                        "x": 17, 
+                                        "y": -12
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "bezier"
+                                }
+                            ], 
+                            "styles": {}
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "action_regions": [
+                                {
+                                    "attributes": {}, 
+                                    "connections": [
+                                        [
+                                            0
+                                        ]
+                                    ], 
+                                    "name": "1", 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "ref": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "annotations": [], 
+                            "shapes": [
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 0, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": 20, 
+                                        "y": -10
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 3, 
+                                        "y": -15
+                                    }, 
+                                    "p2": {
+                                        "x": 17, 
+                                        "y": -15
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 6, 
+                                        "y": -20
+                                    }, 
+                                    "p2": {
+                                        "x": 14, 
+                                        "y": -20
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }
+                            ], 
+                            "styles": {}
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "action_regions": [
+                                {
+                                    "attributes": {}, 
+                                    "connections": [
+                                        [
+                                            0
+                                        ]
+                                    ], 
+                                    "name": "1", 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": -10
+                                    }, 
+                                    "ref": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "annotations": [], 
+                            "shapes": [
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 0, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 20, 
+                                        "y": 0
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }
+                            ], 
+                            "styles": {}
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "action_regions": [
+                                {
+                                    "attributes": {}, 
+                                    "connections": [
+                                        [
+                                            0
+                                        ]
+                                    ], 
+                                    "name": "1", 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": -20
+                                    }, 
+                                    "ref": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "annotations": [], 
+                            "shapes": [
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 3, 
+                                        "y": 7
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 17, 
+                                        "y": 7
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }
+                            ], 
+                            "styles": {}
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "action_regions": [
+                                {
+                                    "attributes": {}, 
+                                    "connections": [
+                                        [
+                                            0
+                                        ]
+                                    ], 
+                                    "name": "1", 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "ref": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "annotations": [], 
+                            "shapes": [
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 0, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": 20, 
+                                        "y": -10
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 0, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": -5, 
+                                        "y": -20
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": 5, 
+                                        "y": -20
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 20, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": 15, 
+                                        "y": -20
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }
+                            ], 
+                            "styles": {}
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "action_regions": [
+                                {
+                                    "attributes": {}, 
+                                    "connections": [
+                                        [
+                                            0
+                                        ]
+                                    ], 
+                                    "name": "1", 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -6
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": -20
+                                    }, 
+                                    "ref": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "annotations": [], 
+                            "shapes": [
+                                {
+                                    "flip": false, 
+                                    "line_width": null, 
+                                    "radius": 3, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "circle", 
+                                    "x": 10, 
+                                    "y": -3
+                                }
+                            ], 
+                            "styles": {}
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "action_regions": [
+                                {
+                                    "attributes": {}, 
+                                    "connections": [
+                                        [
+                                            0
+                                        ]
+                                    ], 
+                                    "name": "1", 
+                                    "p1": {
+                                        "x": 0, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": -5, 
+                                        "y": 0
+                                    }, 
+                                    "ref": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "annotations": [], 
+                            "shapes": [
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": -5, 
+                                        "y": 3
+                                    }, 
+                                    "p2": {
+                                        "x": -5, 
+                                        "y": -3
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }
+                            ], 
+                            "styles": {}
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "action_regions": [
+                                {
+                                    "attributes": {}, 
+                                    "connections": [
+                                        [
+                                            0
+                                        ]
+                                    ], 
+                                    "name": "1", 
+                                    "p1": {
+                                        "x": 20, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 15, 
+                                        "y": 0
+                                    }, 
+                                    "ref": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "annotations": [], 
+                            "shapes": [
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 3
+                                    }, 
+                                    "p2": {
+                                        "x": 15, 
+                                        "y": 0
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -3
+                                    }, 
+                                    "p2": {
+                                        "x": 15, 
+                                        "y": 0
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 3
+                                    }, 
+                                    "p2": {
+                                        "x": 0, 
+                                        "y": 3
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -3
+                                    }, 
+                                    "p2": {
+                                        "x": 0, 
+                                        "y": -3
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 0, 
+                                        "y": 3
+                                    }, 
+                                    "p2": {
+                                        "x": 0, 
+                                        "y": -3
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }
+                            ], 
+                            "styles": {}
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "action_regions": [
+                                {
+                                    "attributes": {}, 
+                                    "connections": [
+                                        [
+                                            0
+                                        ]
+                                    ], 
+                                    "name": "1", 
+                                    "p1": {
+                                        "x": 20, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 15, 
+                                        "y": 0
+                                    }, 
+                                    "ref": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "annotations": [], 
+                            "shapes": [
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 0, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 5, 
+                                        "y": 3
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 0, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 5, 
+                                        "y": -3
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 5, 
+                                        "y": 3
+                                    }, 
+                                    "p2": {
+                                        "x": 15, 
+                                        "y": 3
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 5, 
+                                        "y": -3
+                                    }, 
+                                    "p2": {
+                                        "x": 15, 
+                                        "y": -3
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 15, 
+                                        "y": 3
+                                    }, 
+                                    "p2": {
+                                        "x": 15, 
+                                        "y": -3
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }
+                            ], 
+                            "styles": {}
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "action_regions": [
+                                {
+                                    "attributes": {}, 
+                                    "connections": [
+                                        [
+                                            0
+                                        ]
+                                    ], 
+                                    "name": "1", 
+                                    "p1": {
+                                        "x": 20, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 15, 
+                                        "y": 0
+                                    }, 
+                                    "ref": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "annotations": [], 
+                            "shapes": [
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 0, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 5, 
+                                        "y": 3
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 0, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 5, 
+                                        "y": -3
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 5, 
+                                        "y": 3
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": 3
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 5, 
+                                        "y": -3
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": -3
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 3
+                                    }, 
+                                    "p2": {
+                                        "x": 15, 
+                                        "y": 0
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }, 
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -3
+                                    }, 
+                                    "p2": {
+                                        "x": 15, 
+                                        "y": 0
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }
+                            ], 
+                            "styles": {}
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "action_regions": [
+                                {
+                                    "attributes": {}, 
+                                    "connections": [
+                                        [
+                                            0
+                                        ]
+                                    ], 
+                                    "name": "1", 
+                                    "p1": {
+                                        "x": 3, 
+                                        "y": -3
+                                    }, 
+                                    "p2": {
+                                        "x": -3, 
+                                        "y": 3
+                                    }, 
+                                    "ref": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "annotations": [], 
+                            "shapes": [
+                                {
+                                    "flip": false, 
+                                    "p1": {
+                                        "x": -3, 
+                                        "y": -3
+                                    }, 
+                                    "p2": {
+                                        "x": 3, 
+                                        "y": 3
+                                    }, 
+                                    "rotation": 0, 
+                                    "styles": {}, 
+                                    "type": "line", 
+                                    "width": 0
+                                }
+                            ], 
+                            "styles": {}
+                        }
+                    ]
+                }
+            ]
+        }, 
         "27b59ac0358a9766": {
             "attributes": {
                 "_approved_alternate_part_number": "", 
@@ -5384,13 +6455,34 @@
                 "visible": "true", 
                 "x": 875, 
                 "y": -676
+            }, 
+            {
+                "flip": false, 
+                "label": {
+                    "align": "left", 
+                    "baseline": "alphabetic", 
+                    "flip": false, 
+                    "font_family": "sans-serif", 
+                    "font_size": 10, 
+                    "rotation": 0.0, 
+                    "styles": {}, 
+                    "text": "Pulldown Resistor", 
+                    "type": "label", 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                "rotation": 0.0, 
+                "value": "Pulldown Resistor", 
+                "visible": "true", 
+                "x": 785, 
+                "y": -880
             }
         ], 
         "attributes": {
             "_diode_counter": "1", 
-            "_integrated circuit_counter": "1", 
+            "_integrated circuit_counter": "3", 
             "_integrated_circuit_counter": "5", 
-            "_resistor_counter": "2", 
+            "_resistor_counter": "3", 
             "_test_point_counter": "1"
         }, 
         "metadata": {
@@ -5401,7 +6493,7 @@
             "name": "Arduinos-Exercise-2", 
             "owner": "Software", 
             "slug": "Arduinos-Exercise-2", 
-            "updated_timestamp": 1438095266
+            "updated_timestamp": 1438097644
         }
     }, 
     "layer_options": [
@@ -5463,6 +6555,61 @@
     "modules": {}, 
     "named_regions": [], 
     "nets": [
+        {
+            "annotations": [], 
+            "attributes": {}, 
+            "net_id": "8e903ca8523e652c", 
+            "net_type": "nets", 
+            "points": [
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "65a8dfaaaaf757be", 
+                        "d22b0fee4004e027"
+                    ], 
+                    "point_id": "3913ececb8cdd2b5", 
+                    "x": 960, 
+                    "y": -810
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "09a2c3979b4eec34", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "3913ececb8cdd2b5"
+                    ], 
+                    "point_id": "65a8dfaaaaf757be", 
+                    "x": 960, 
+                    "y": -790
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 1, 
+                            "body_index": 0, 
+                            "instance_id": "e01f30ebec7feba4", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "3913ececb8cdd2b5"
+                    ], 
+                    "point_id": "d22b0fee4004e027", 
+                    "x": 890, 
+                    "y": -810
+                }
+            ], 
+            "signals": [
+                ""
+            ]
+        }, 
         {
             "annotations": [], 
             "attributes": {}, 
@@ -5632,6 +6779,144 @@
                     "point_id": "99dd291635e0983f", 
                     "x": 860, 
                     "y": -620
+                }
+            ], 
+            "signals": [
+                ""
+            ]
+        }, 
+        {
+            "annotations": [], 
+            "attributes": {}, 
+            "net_id": "3d92008d28ddada2", 
+            "net_type": "nets", 
+            "points": [
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "60323b5512e2a94a", 
+                        "a21b0b4f48f4f310", 
+                        "d861cf1483a10e1e"
+                    ], 
+                    "point_id": "4c7cda45f15c2be8", 
+                    "x": 770, 
+                    "y": -810
+                }, 
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "4c7cda45f15c2be8", 
+                        "f1a23c104cca6a58"
+                    ], 
+                    "point_id": "60323b5512e2a94a", 
+                    "x": 770, 
+                    "y": -830
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 22, 
+                            "body_index": 0, 
+                            "instance_id": "1c0459effa733183", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "a21b0b4f48f4f310"
+                    ], 
+                    "point_id": "9a0419d64cfcb856", 
+                    "x": 710, 
+                    "y": -760
+                }, 
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "4c7cda45f15c2be8", 
+                        "9a0419d64cfcb856"
+                    ], 
+                    "point_id": "a21b0b4f48f4f310", 
+                    "x": 770, 
+                    "y": -760
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "e01f30ebec7feba4", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "4c7cda45f15c2be8"
+                    ], 
+                    "point_id": "d861cf1483a10e1e", 
+                    "x": 840, 
+                    "y": -810
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "a8c331950cff1be9", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "60323b5512e2a94a"
+                    ], 
+                    "point_id": "f1a23c104cca6a58", 
+                    "x": 770, 
+                    "y": -850
+                }
+            ], 
+            "signals": [
+                ""
+            ]
+        }, 
+        {
+            "annotations": [], 
+            "attributes": {}, 
+            "net_id": "7c9f4fbddc554279", 
+            "net_type": "nets", 
+            "points": [
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "365bdcf76bde3060", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "fdae02dcce1a8ad1"
+                    ], 
+                    "point_id": "81314d61124fc8a8", 
+                    "x": 770, 
+                    "y": -920
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 1, 
+                            "body_index": 0, 
+                            "instance_id": "a8c331950cff1be9", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "81314d61124fc8a8"
+                    ], 
+                    "point_id": "fdae02dcce1a8ad1", 
+                    "x": 770, 
+                    "y": -900
                 }
             ], 
             "signals": [

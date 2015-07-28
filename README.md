@@ -30,10 +30,10 @@ Connect a push button to pin 4 of the Arduino Uno as shown in the schematic. Be 
 
 Update the code so that each button press adjusts the blink rate as follows:
 
-Press | Blink Period |
+Press | Blink Period (ms)|
 --- | --- | --- |
-1 | 300 |
-2 | 200 |
-3 | 100 |
-4 | 500 |
+1 | 400 |
+2 | 300 |
+3 | 200 |
+4 | 100 |
 
