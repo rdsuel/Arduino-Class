@@ -6,14 +6,14 @@ We will be using the following Arduino Language Reference page extensively. It d
 
 https://www.arduino.cc/en/Reference/HomePage
 
-## Example 1: Blink an LED at 1Hz
+## Exercise 1: Blink an LED
 
 ### Concepts
 Digital Outputs, Timing, Serial Window, Functions
 
 ### Schematic
-![Example 1](/schematics/example_1.png)
+![Example 1](/schematics/exercise_1.png)
 
 ### Details
-Connect an LED and current limiting resistor (200 Ohm, blue resistor) to pin 5 of the Arduino Uno. Blink the LED at 1Hz (500ms on, 500ms off). Use functions to encapsulate functionality where possible.
+Connect an LED and current limiting resistor (200 Ohm, blue resistor) to pin 5 of the Arduino Uno. Blink the LED at 1Hz (500ms on, 500ms off). Also, send the LED status to the serial window each time the status changes. Use functions to encapsulate functionality where possible.
 
