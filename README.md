@@ -1,5 +1,6 @@
 # Arduino-Class
-This repo contains the class materials for the "Arduino Basics" class that I teach at General Electric. It will cover multiple examples intended to teach basic concepts needed to program for Arduinos.
+This repo contains the class materials for the "Arduino Basics" class that I teach at General Electric. It will cover multiple examples intended to teach basic concepts needed to program for Arduinos. All examples are based on the Arduino Uno Rev 3. You can get a "clone" Uno R3 on Amazon for less than $15, here is an example: http://amzn.com/B00SZSFFY0.
+
 
 ## Arduino Software Reference 
 We will be using the following Arduino Language Reference page extensively. It defines software structure, variables and functions needed to program for the Arduino.
@@ -53,6 +54,9 @@ Analog Inputs, PWM Outputs
 
 ### Schematic
 ![Exercise 3](/schematics/exercise_3.png)
+
+## Exercise 4: Control a servo motor using an analog knob
+
 
 
 
