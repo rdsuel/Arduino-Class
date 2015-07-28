@@ -7,17 +7,16 @@ We will be using the following Arduino Language Reference page extensively. It d
 https://www.arduino.cc/en/Reference/HomePage
 
 ## Exercise 1: Blink an LED
-
-![Exercise 1](/schematics/exercise_1.png)
-
 Connect an LED and current limiting resistor (200 Ohm, blue resistor) to pin 5 of the Arduino Uno. Blink the LED at 1Hz (500ms on, 500ms off). Use a 'function' to perform the actual LED control.
 
 ### Concepts
 Digital Outputs, Basic Timing, Functions
 
+### Schematic
+![Exercise 1](/schematics/exercise_1.png)
+
 
 ## Exercise 2: Adjust blink rate with a button
-
 Connect a push button to pin 4 of the Arduino Uno as shown in the schematic. Be sure to add a 10K pulldown resistor to the pin 4 side of the button so that the input is not floating (prevents false readings). 
 
 1. Update the LED function to calculate elapsed time using the 'millis()' function instead of using 'delay(500);' in the main loop.
@@ -41,7 +40,6 @@ Digital Inputs, Advanced Timing, Serial Window
 
 
 ## Exercise 3: Adjust brightness with an analog knob
-
 Connect a potentiometer (analog knob) to analog input 0 (AN0) as shown in the schematic. After connecting the knob, add the following code:
 
 1. Print the analog input value to the Serial window every 1 second.
