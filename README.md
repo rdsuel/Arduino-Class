@@ -87,7 +87,7 @@ For this last exercise, we will connect a temperature sensor to the Arduino, dis
 
 4. Comment out '#define DHTTYPE DHT22' and uncomment '#define DHTTYPE DHT11', since we are using the DHT11 sensor.
 
-5. Include the servo library '#include <Servo.h>'. Add the appropriate logic to turn the servo to 180 degrees when the temperature exceeds 80F. Add logic to return to 90 degrees when the temperature falls below 78F.
+5. Include the servo library '#include <Servo.h>'. Add the appropriate logic to turn the servo to 150 degrees when the temperature exceeds 80F. Add logic to return to 90 degrees when the temperature falls below 78F.
 
 ### Concepts
 Importing 3rd Party Libraries, Interfacing with Temp/RH Sensors

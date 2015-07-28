@@ -77,16 +77,11 @@ void loop() {
   if (f > 80)
   {
     servo.write(150);
-    Serial.println(String("Servo = 180 deg"));
+    Serial.println(String("Servo = 150 deg"));
   }
-  else if (f > 78)
+  else if (f <= 78)
   {
-    servo.write(30);
-    Serial.println(String("Servo = 0 deg"));    
-  }
-  else
-  {
-    servo.write (90);
-    Serial.println(String("Servo = 90 deg"));
+    servo.write(90);
+    Serial.println(String("Servo = 90 deg"));    
   }
 }
