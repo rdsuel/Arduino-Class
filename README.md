@@ -77,5 +77,25 @@ Using Libraries, Controlling Servo Motors
 <hr>
 
 ## Exercise 5: Control a servo using your breath!
+For this last exercise, we will connect a temperature sensor to the Arduino, display the temperature and relative humidity to the serial window, and control the servo when the temperature reaches certain thresholds. We will be working along with the following tutorial for the temp sensor: https://learn.adafruit.com/dht/connecting-to-a-dhtxx-sensor
 
+1. Download the DHT temperature sensor library zip file from here: https://github.com/adafruit/DHT-sensor-library and save it to your desktop.
+
+2. Import the temperature sensor library into the Arduino development environment using: "Sketch -> Include Library -> Add .ZIP Library...". Then select the zip file you downloaded in step 1.
+
+3. Start a new project based on the DHT example: "File -> Examples -> DHT sensor library". 
+
+4. Comment out '#define DHTTYPE DHT22' and uncomment '#define DHTTYPE DHT11', since we are using the DHT11 sensor.
+
+5. Include the servo library '#include <Servo.h>'. Add the appropriate logic to turn the servo to 180 degrees when the temperature exceeds 80F. Add logic to return to 90 degrees when the temperature falls below 78F.
+
+### Concepts
+Importing 3rd Party Libraries, Interfacing with Temp/RH Sensors
+
+### Schemtatic
+![Exercise 5](/schematics/exercise_5.png)
+
+<hr>
+
+#### Thanks for looking ... hopefully you learned something new!
 
