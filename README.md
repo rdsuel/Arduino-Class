@@ -44,7 +44,7 @@ Connect a potentiometer (analog knob) to analog input 0 (AN0) as shown in the sc
 
 1. Print the analog input value to the Serial window every 1 second.
 
-2. Conver the LED output to a PWM output and set the duty cycle (brightness) based on the value of the Analog input. The equation for scaling the brightness is as follows:
+2. Convert the LED output to a PWM output and set the duty cycle (brightness) based on the value of the Analog input. The equation for scaling the brightness is as follows:
 
 `brightness = (analogValue * 255)/1023;`
 
