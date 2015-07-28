@@ -9,7 +9,7 @@ https://www.arduino.cc/en/Reference/HomePage
 ## Exercise 1: Blink an LED
 
 ### Concepts
-Digital Outputs, Timing, Serial Window, Functions
+Digital Outputs, Basic Timing, Functions
 
 ### Schematic
 ![Exercise 1](/schematics/exercise_1.png)
@@ -20,7 +20,7 @@ Connect an LED and current limiting resistor (200 Ohm, blue resistor) to pin 5 o
 ## Exercise 2: Add a button
 
 ### Concepts
-Digital Inputs
+Digital Inputs, Advanced Timing, Serial Window
 
 ### Schematic
 ![Exercise 2](/schematics/exercise_2.png)
@@ -28,7 +28,11 @@ Digital Inputs
 ### Details
 Connect a push button to pin 4 of the Arduino Uno as shown in the schematic. Be sure to add a 10K pulldown resistor to the pin 4 side of the button so that the input is not floating (prevents false readings). 
 
-Update the code so that each button press adjusts the blink rate as follows (On time = Blink Rate, Off time = Blink Rate):
++ Update the LED timing to use the calculate elapsed time using the 'millis()' function instead of 'delay()'.
+
++ Add new code that prints "Press" and "Release" to the serial window each time the button is pressed/released.
+
++ Finally, modify the LED blink rate each time the button is pressed. The blink rates should match the following table, and after the 4th button press should wrap back around to a 500ms blink rate (as in exercise 1).
 
 Press | Blink Rate (ms)|
 --- | --- | --- |
