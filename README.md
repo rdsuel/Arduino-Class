@@ -17,7 +17,8 @@ Digital Outputs, Basic Timing, Functions
 ### Details
 Connect an LED and current limiting resistor (200 Ohm, blue resistor) to pin 5 of the Arduino Uno. Blink the LED at 1Hz (500ms on, 500ms off). Use a 'function' to perform the actual LED control.
 
-## Exercise 2: Add a button
+
+## Exercise 2: Adjust blink rate with a button
 
 ### Concepts
 Digital Inputs, Advanced Timing, Serial Window
@@ -40,4 +41,24 @@ Press | Blink Rate (ms)|
 2 | 300 |
 3 | 200 |
 4 | 100 |
+
+
+## Exercise 3: Adjust brightness with an analog knob
+
+### Concepts
+Analog Inputs, PWM Outputs
+
+### Schematic
+![Exercise 3](/schematics/exercise_3.png)
+
+### Details
+Connect a potentiometer (analog knob) to analog input 0 (AN0) as shown in the schematic. After connecting the knob, add the following code:
+
+1. Print the analog input value to the Serial window every 1 second.
+
+2. Conver the LED output to a PWM output and set the duty cycle (brightness) based on the value of the Analog input. The equation for scaling the brightness is as follows:
+
+`brightness = (analogValue * 255)/1023;`
+
+
 
