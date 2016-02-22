@@ -1,2 +1,2 @@
-# Arduino-Week-Of-Learning
-Materials for Arduinos class
+# Arduino Class
+Materials for my Arduino class taught at GE Appliances.
