@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Arduino-Class
 This repo contains the class materials for the "Arduino Basics" class that I teach at General Electric. It will cover multiple examples intended to teach basic concepts needed to program for Arduinos. All examples are based on the Arduino Uno Rev 3. You can get a "clone" Uno R3 on Amazon for less than $15, here is an example: http://amzn.com/B00SZSFFY0.
 
@@ -99,3 +100,7 @@ Importing 3rd Party Libraries, Interfacing with Temp/RH Sensors
 
 #### Thanks for looking ... hopefully you learned something new!
 
+=======
+# Arduino Class
+Materials for my Arduino class taught at GE Appliances.
+>>>>>>> b4b4b4d624a1a782e3ff71719fabe1e6a4d9a0f2
